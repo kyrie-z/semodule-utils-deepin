@@ -1,8 +1,19 @@
-semodule-utils (3.3-1) UNRELEASED; urgency=medium
+semodule-utils (3.5-1) unstable; urgency=medium
 
-  * update
+  * New upstream release
+    - debian/control: Bump build-dependency to match the new release
+  * debian/upstream/signing-key.asc: Add public key of Jason Zaman
+  * debian/control: Bump Standards-Version to 4.6.2 (no further changes)
 
- -- Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>  Wed, 18 May 2022 10:01:46 +0800
+ -- Laurent Bigonville <bigon@debian.org>  Mon, 10 Jul 2023 21:24:32 +0200
+
+semodule-utils (3.4-1) unstable; urgency=medium
+
+  * New upstream release
+    - debian/control: Bump build-dependency to match the new release
+  * Enable GPG key validation of the upstream tarball
+
+ -- Laurent Bigonville <bigon@debian.org>  Sat, 04 Jun 2022 15:37:05 +0200
 
 semodule-utils (3.3-1) unstable; urgency=medium
 
